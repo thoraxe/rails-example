@@ -46,3 +46,6 @@ gem 'thor', '= 0.14.6'
 
 # This needs to be installed so we can run Rails console on OpenShift directly
 gem 'minitest'
+
+# This needs to be installed so that rails doesn't complain about a javascript runtime engine
+gem 'therubyracer'
